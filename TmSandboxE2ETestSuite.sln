@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmSandboxE2ETestSuite", "TmSandboxE2ETestSuite\TmSandboxE2ETestSuite.csproj", "{6475DEEF-E5DF-43DC-9F27-AB40C113EFEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TmSandboxE2ETestSuite", "TmSandboxE2ETestSuite\TmSandboxE2ETestSuite.csproj", "{6475DEEF-E5DF-43DC-9F27-AB40C113EFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmSandboxE2ETestSuite.Specs", "TmSandboxE2ETestSuite.Specs\TmSandboxE2ETestSuite.Specs.csproj", "{C5840CDA-F83B-4D5B-B7A3-978B689D895E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6475DEEF-E5DF-43DC-9F27-AB40C113EFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6475DEEF-E5DF-43DC-9F27-AB40C113EFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6475DEEF-E5DF-43DC-9F27-AB40C113EFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5840CDA-F83B-4D5B-B7A3-978B689D895E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5840CDA-F83B-4D5B-B7A3-978B689D895E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5840CDA-F83B-4D5B-B7A3-978B689D895E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5840CDA-F83B-4D5B-B7A3-978B689D895E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
